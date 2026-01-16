@@ -1,3 +1,70 @@
 {
-
+    "navbar": {
+        "services": "Servizi",
+        "projects": "Progetti",
+        "certifications": "Certificazioni",
+        "about": "Chi Siamo",
+        "contact": "Contattaci"
+    },
+    "hero": {
+        "title": "Andrew Sky: Soluzioni Drone Professionali",
+        "subtitle": "Precisione e innovazione per rilievi tecnici e riprese aeree. Servizi certificati ENAC per ogni esigenza professionale.",
+        "cta": "Richiedi un Preventivo"
+    },
+    "sectionHeaders": {
+        "services": {
+            "label": "Competenze Professionali",
+            "title": "I Nostri Servizi"
+        }
+    },
+    "feature": {
+        "title": "Rilievi Fotogrammetrici",
+        "description": "Utilizziamo le tecnologie più avanzate per ricostruzioni 3D precise e mappature territoriali dettagliate. Ottieni dati georeferenziati con precisione millimetrica per i tuoi progetti di ingegneria e architettura.",
+        "cta": "Scopri la Fotogrammetria",
+        "stats": {
+            "value": "99.9%",
+            "label": "Accuratezza dei dati rilevati sul campo."
+        }
+    },
+    "features": {
+        "precision": {
+            "title": "Precisione",
+            "description": "Centimetrica su ogni asse."
+        },
+        "data": {
+            "title": "Dati",
+            "description": "Nuvole di punti dense."
+        },
+        "3dmodels": {
+            "title": "Modelli 3D",
+            "description": "Alta risoluzione 4K."
+        }
+    },
+    "services": {
+        "industrial": {
+            "title": "Ispezioni Industriali",
+            "description": "Monitoraggio sicuro ed efficiente di infrastrutture critiche, ciminiere, ponti e impianti fotovoltaici senza rischi umani.",
+            "cta": "Dettagli Servizio"
+        },
+        "video": {
+            "title": "Produzioni Video",
+            "description": "Storytelling creativo con riprese aeree in 4K ad alto impatto visivo per eventi, spot pubblicitari e documentari.",
+            "cta": "Guarda il Portfolio"
+        },
+        "agriculture": {
+            "title": "Agricoltura di Precisione",
+            "description": "Analisi multispettrale dello stato di salute delle colture per ottimizzare la resa e ridurre l'uso di fertilizzanti.",
+            "cta": "Scopri di più"
+        }
+    },
+    "cta": {
+        "title": "Pronto per il tuo prossimo progetto?",
+        "description": "Contattaci oggi per una consulenza gratuita. Il nostro team tecnico è a tua disposizione per trovare la soluzione drone più adatta alle tue necessità.",
+        "primary": "Richiedi un Preventivo",
+        "secondary": "Chiamaci Ora"
+    },
+    "footer": {
+        "tagline": "Sky is the limit.",
+        "copyright": "© 2026 Andrew Sky S.r.l. - Tutti i diritti riservati. Operatore Certificato ENAC."
+    }
 }

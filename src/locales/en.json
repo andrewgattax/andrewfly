@@ -1,3 +1,70 @@
 {
-
+    "navbar": {
+        "services": "Services",
+        "projects": "Projects",
+        "certifications": "Certifications",
+        "about": "About Us",
+        "contact": "Contact Us"
+    },
+    "hero": {
+        "title": "Andrew Sky: Professional Drone Solutions",
+        "subtitle": "Precision and innovation for technical surveys and aerial footage. ENAC-certified services for every professional need.",
+        "cta": "Request a Quote"
+    },
+    "sectionHeaders": {
+        "services": {
+            "label": "Professional Expertise",
+            "title": "Our Services"
+        }
+    },
+    "feature": {
+        "title": "Photogrammetric Surveys",
+        "description": "Using the most advanced technologies for precise 3D reconstructions and detailed territorial mapping. Obtain georeferenced data with millimetric precision for your engineering and architecture projects.",
+        "cta": "Discover Photogrammetry",
+        "stats": {
+            "value": "99.9%",
+            "label": "Accuracy of field-collected data."
+        }
+    },
+    "features": {
+        "precision": {
+            "title": "Precision",
+            "description": "Centimetric on every axis."
+        },
+        "data": {
+            "title": "Data",
+            "description": "Dense point clouds."
+        },
+        "3dmodels": {
+            "title": "3D Models",
+            "description": "High resolution 4K."
+        }
+    },
+    "services": {
+        "industrial": {
+            "title": "Industrial Inspections",
+            "description": "Safe and efficient monitoring of critical infrastructure, chimneys, bridges, and photovoltaic plants without human risks.",
+            "cta": "Service Details"
+        },
+        "video": {
+            "title": "Video Productions",
+            "description": "Creative storytelling with high-impact 4K aerial footage for events, commercials, and documentaries.",
+            "cta": "View Portfolio"
+        },
+        "agriculture": {
+            "title": "Precision Agriculture",
+            "description": "Multispectral analysis of crop health to optimize yield and reduce fertilizer use.",
+            "cta": "Learn More"
+        }
+    },
+    "cta": {
+        "title": "Ready for Your Next Project?",
+        "description": "Contact us today for a free consultation. Our technical team is at your disposal to find the drone solution best suited to your needs.",
+        "primary": "Request a Quote",
+        "secondary": "Call Us Now"
+    },
+    "footer": {
+        "tagline": "Sky is the limit.",
+        "copyright": "© 2026 Andrew Sky S.r.l. - All rights reserved. ENAC Certified Operator."
+    }
 }
