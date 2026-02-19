@@ -4,6 +4,8 @@ trigger: always_on
 
 # Project Overview
 
+This is a personal portfolio website for SkyDAR, a professional drone company offering FPV cinematic footage and photogrammetric survey services. The site is built as a single-page application with smooth scrolling sections.
+
 This document outlines the technical architecture, patterns, and conventions used in this project.
 
 ## Tech Stack

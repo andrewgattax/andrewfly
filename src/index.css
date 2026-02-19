@@ -16,10 +16,11 @@
     --card-foreground: #0a0a0a;
     --popover: #ffffff;
     --popover-foreground: #0a0a0a;
-    --primary: #11a4d4;
-    --primary-rgb: 17, 164, 212;
+    --primary: #ea5929;
+    --primary-rgb: 234, 89, 41;
     --primary-foreground: #ffffff;
-    --primary-gradient: linear-gradient(135deg, #11a4d4 0%, #0ea5e9 100%);
+    --primary-light: #ff825c;
+    --primary-gradient: linear-gradient(135deg, #ea5929 0%, #e0872e 100%);
     --secondary: #708090;
     --secondary-rgb: 112, 128, 144;
     --secondary-foreground: #ffffff;
@@ -81,17 +82,15 @@
 
 .dark {
     color: var(--foreground);
-    --background: #ffffff;
+    --background: #101d22;
     --background-dark: #101d22;
     --foreground: #ffffff;
+    --surface: #ffffff;
     --card: #0f172a;
     --card-foreground: #fafafa;
     --popover: #1e293b;
     --popover-foreground: #fafafa;
-    --primary: #11a4d4;
-    --primary-rgb: 17, 164, 212;
     --primary-foreground: #ffffff;
-    --primary-gradient: linear-gradient(135deg, #11a4d4 0%, #0ea5e9 100%);
     --secondary: #94a3b8;
     --secondary-foreground: #0f172a;
     --muted: #1e293b;
@@ -148,6 +147,7 @@ body {
     --color-popover-foreground: var(--popover-foreground);
     --color-primary: var(--primary);
     --color-primary-foreground: var(--primary-foreground);
+    --color-primary-light: var(--primary-light);
     --color-secondary: var(--secondary);
     --color-secondary-foreground: var(--secondary-foreground);
     --color-muted: var(--muted);
@@ -215,6 +215,30 @@ body {
     font-family: 'Utendo', serif;
 }
 
+@font-face {
+    font-family: 'Prototype';
+    src: url('./assets/fonts/Prototype.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Azonix';
+    src: url('./assets/fonts/Azonix.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-prototype {
+    font-family: 'Prototype', sans-serif;
+}
+
+.font-azonix {
+    font-family: 'Azonix', sans-serif;
+}
+
 .glow-primary {
     /*position: relative;*/
     box-shadow: 0 0 40px rgba(var(--primary-rgb), 0.1);
@@ -231,8 +255,8 @@ body {
 
 .text-glow-primary {
     text-shadow:
-            0 0 40px rgba(var(--primary-rgb), 0.5),
-            0 0 80px rgba(var(--surface-rgb), 0.1)
+        0 0 40px rgba(var(--primary-rgb), 0.5),
+        0 0 80px rgba(var(--surface-rgb), 0.1)
 }
 
 .glow-surface {
@@ -243,7 +267,7 @@ body {
 
 .text-glow-surface {
     text-shadow:
-            0 0 40px rgba(var(--surface-rgb), 0.3)
+        0 0 40px rgba(var(--surface-rgb), 0.3)
 }
 
 @keyframes glowPrimary {
@@ -266,6 +290,20 @@ body {
     50% {
         filter: drop-shadow(0 0 25px rgba(var(--primary-rgb), 0.4)) drop-shadow(0 0 50px rgba(var(--primary-rgb), 0.15));
     }
+}
+
+.shadow-glow-primary {
+    box-shadow: 0 0 15px rgba(var(--primary-rgb), 0.3);
+}
+
+.hover\:shadow-glow-primary:hover {
+    box-shadow: 0 0 25px rgba(var(--primary-rgb), 0.6);
+}
+
+
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
 }
 
 .landing-button {

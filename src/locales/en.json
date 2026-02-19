@@ -7,7 +7,7 @@
         "contact": "Contact Us"
     },
     "hero": {
-        "title": "Andrew Sky: Professional Drone Solutions",
+        "title": "Professional Drone Solutions",
         "subtitle": "Precision and innovation for technical surveys and aerial footage. ENAC-certified services for every professional need.",
         "cta": "Request a Quote"
     },
@@ -19,11 +19,11 @@
     },
     "feature": {
         "title": "Photogrammetric Surveys",
-        "description": "Using the most advanced technologies for precise 3D reconstructions and detailed territorial mapping. Obtain georeferenced data with millimetric precision for your engineering and architecture projects.",
+        "description": "Using the most advanced technologies for precise 3D reconstructions and detailed territorial mapping. Obtain georeferenced data with centimetric precision for your engineering and architecture projects.",
         "cta": "Discover Photogrammetry",
         "stats": {
-            "value": "99.9%",
-            "label": "Accuracy of field-collected data."
+            "value": "~1cm",
+            "label": "Centimetric precision of measurements."
         }
     },
     "features": {
@@ -84,10 +84,35 @@
         "title": "Ready for Your Next Project?",
         "description": "Contact us today for a free consultation. Our technical team is at your disposal to find the drone solution best suited to your needs.",
         "primary": "Request a Quote",
-        "secondary": "Call Us Now"
+        "secondary": "Call Us Now",
+        "form": {
+            "name": {
+                "label": "Name",
+                "placeholder": "Your Name"
+            },
+            "surname": {
+                "label": "Surname",
+                "placeholder": "Your Surname"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "your@email.com"
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "How can we help you?"
+            },
+            "or": "or",
+            "submit": "Request a Quote",
+            "validation": {
+                "required": "This field is required",
+                "email": "Please enter a valid email address",
+                "min": "Must be at least {{min}} characters"
+            }
+        }
     },
     "footer": {
         "tagline": "Sky is the limit.",
-        "copyright": "© 2026 Andrew Sky S.r.l. - All rights reserved. ENAC Certified Operator."
+        "copyright": "© 2026 SkyDAR - All rights reserved"
     }
 }

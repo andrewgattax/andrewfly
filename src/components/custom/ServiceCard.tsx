@@ -11,7 +11,7 @@ interface ServiceCardProps {
 
 export function ServiceCard({ icon: Icon, title, description, linkText, linkHref }: ServiceCardProps) {
   return (
-    <div className="group p-8 rounded-2xl bg-white border border-slate-100 hover:border-primary/30 hover:shadow-xl transition-all dark:bg-slate-900 dark:border-slate-800">
+    <div className="group p-8 rounded-2xl bg-white border border-slate-100 hover:border-primary/50 hover:shadow-[0_0_40px_rgba(17,164,212,0.15)] transition-all duration-500 dark:bg-slate-900 dark:border-slate-800">
       <div className="size-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
         <Icon className="w-8 h-8" />
       </div>

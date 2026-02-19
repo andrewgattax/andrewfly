@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal portfolio website for Andrew Sky, a professional drone pilot offering FPV cinematic footage and photogrammetric survey services. The site is built as a single-page application with smooth scrolling sections.
+This is a personal portfolio website for SkyDAR, a professional drone company offering FPV cinematic footage and photogrammetric survey services. The site is built as a single-page application with smooth scrolling sections.
 
 **Tech Stack:**
 - **Framework:** Vike (React-based SSR/meta-framework) with Vite

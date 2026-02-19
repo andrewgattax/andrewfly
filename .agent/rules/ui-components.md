@@ -33,6 +33,9 @@ export default {
 }
 ```
 
+##Theming
+Our index.css already provides color variable implementation for both light and dark mode, do not use any dark: prefix in classnames but just the color variable, it will auto implement the correct color based on selected theme. If a color that may be reused in future is not present in the index.css variables, create the variable for both root and dark themes, than link it in the tailwind.config.js and than use it in the tsx files.
+
 ## Interactive Elements
 
 ### Glow Effects
@@ -110,7 +113,7 @@ When needing new shadcn components, request installation via:
 ```bash
 npx shadcn@latest add [component-name]
 ```
-This command should be ran in the apps/{app} directory
+This command should be ran in the / directory
 
 ### Customization Approach
 1. **Start with shadcn base component**

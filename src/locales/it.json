@@ -7,7 +7,7 @@
         "contact": "Contattaci"
     },
     "hero": {
-        "title": "Andrew Sky: Soluzioni Drone Professionali",
+        "title": "Soluzioni Drone Professionali",
         "subtitle": "Precisione e innovazione per rilievi tecnici e riprese aeree. Servizi certificati ENAC per ogni esigenza professionale.",
         "cta": "Richiedi un Preventivo"
     },
@@ -19,11 +19,11 @@
     },
     "feature": {
         "title": "Rilievi Fotogrammetrici",
-        "description": "Utilizziamo le tecnologie più avanzate per ricostruzioni 3D precise e mappature territoriali dettagliate. Ottieni dati georeferenziati con precisione millimetrica per i tuoi progetti di ingegneria e architettura.",
+        "description": "Utilizziamo le tecnologie più avanzate per ricostruzioni 3D precise e mappature territoriali dettagliate. Ottieni dati georeferenziati con precisione centimetrica per i tuoi progetti di ingegneria e architettura.",
         "cta": "Scopri la Fotogrammetria",
         "stats": {
-            "value": "99.9%",
-            "label": "Accuratezza dei dati rilevati sul campo."
+            "value": "~1cm",
+            "label": "Precisione centimetrica di misurazione."
         }
     },
     "features": {
@@ -84,10 +84,35 @@
         "title": "Pronto per il tuo prossimo progetto?",
         "description": "Contattaci oggi per una consulenza gratuita. Il nostro team tecnico è a tua disposizione per trovare la soluzione drone più adatta alle tue necessità.",
         "primary": "Richiedi un Preventivo",
-        "secondary": "Chiamaci Ora"
+        "secondary": "Chiamaci Ora",
+        "form": {
+            "name": {
+                "label": "Nome",
+                "placeholder": "Il tuo Nome"
+            },
+            "surname": {
+                "label": "Cognome",
+                "placeholder": "Il tuo Cognome"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "latua@email.com"
+            },
+            "message": {
+                "label": "Messaggio",
+                "placeholder": "Come possiamo aiutarti?"
+            },
+            "or": "o",
+            "submit": "Richiedi un Preventivo",
+            "validation": {
+                "required": "Questo campo è obbligatorio",
+                "email": "Inserisci un indirizzo email valido",
+                "min": "Deve essere di almeno {{min}} caratteri"
+            }
+        }
     },
     "footer": {
         "tagline": "Sky is the limit.",
-        "copyright": "© 2026 Andrew Sky S.r.l. - Tutti i diritti riservati. Operatore Certificato ENAC."
+        "copyright": "© 2026 SkyDAR - Tutti i diritti riservati"
     }
 }

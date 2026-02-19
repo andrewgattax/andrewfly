@@ -1,19 +1,16 @@
 import { useTranslation } from 'react-i18next';
 import { Globe, Mail, FileText } from 'lucide-react';
+import { LogoFull } from './logofull';
+import { TextLogo } from './textlogo';
 
 export function Footer() {
   const { t } = useTranslation();
 
   return (
     <footer className="bg-white dark:bg-background-dark border-t border-slate-100 dark:border-slate-800 py-16">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 flex flex-col md:flex-row justify-between items-center gap-8">
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-0 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex items-center gap-3">
-          <div className="text-slate-400">
-            <svg className="size-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
-            </svg>
-          </div>
-          <h2 className="text-lg font-bold tracking-tight uppercase text-slate-900 dark:text-white">Andrew Sky</h2>
+          <TextLogo />
         </div>
 
         <p className="text-slate-400 text-sm">
